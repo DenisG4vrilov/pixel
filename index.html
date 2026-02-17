@@ -15,6 +15,7 @@
     </script>
     <noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3741950;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript>
     <!-- /Top.Mail.Ru counter -->
+     
     <meta charset="UTF-8">
     <title>Тестовый сайт</title>
 </head>
@@ -23,7 +24,8 @@
 <h1>Тестовая страница</h1>
 <p>Сайт для практики установки рекламных пикселей</p>
 
-<button id="send">Отправить заявку</button>
+<!-- Кнопка с отправкой события в Top.Mail.Ru -->
+<button onclick="_tmr.push({ type: 'reachGoal', id: 3741950, goal: 'order'});">Отправить заявку</button>
 
 </body>
 </html>
